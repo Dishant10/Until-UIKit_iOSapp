@@ -13,6 +13,7 @@
 		33BE289927BCE57000E6A31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE289727BCE57000E6A31D /* Main.storyboard */; };
 		33BE289B27BCE57200E6A31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BE289A27BCE57200E6A31D /* Assets.xcassets */; };
 		33BE289E27BCE57200E6A31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE289C27BCE57200E6A31D /* LaunchScreen.storyboard */; };
+		33BE28A627BCF46400E6A31D /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE28A527BCF46400E6A31D /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33BE289A27BCE57200E6A31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BE289D27BCE57200E6A31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33BE289F27BCE57200E6A31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BE28A527BCF46400E6A31D /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				33BE289127BCE56F00E6A31D /* AppDelegate.swift */,
 				33BE289327BCE56F00E6A31D /* SceneDelegate.swift */,
 				33BE289527BCE56F00E6A31D /* ViewController.swift */,
+				33BE28A527BCF46400E6A31D /* DateViewController.swift */,
 				33BE289727BCE57000E6A31D /* Main.storyboard */,
 				33BE289A27BCE57200E6A31D /* Assets.xcassets */,
 				33BE289C27BCE57200E6A31D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BE28A627BCF46400E6A31D /* DateViewController.swift in Sources */,
 				33BE289627BCE56F00E6A31D /* ViewController.swift in Sources */,
 				33BE289227BCE56F00E6A31D /* AppDelegate.swift in Sources */,
 				33BE289427BCE56F00E6A31D /* SceneDelegate.swift in Sources */,
