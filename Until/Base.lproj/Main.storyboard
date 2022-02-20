@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rfN-n9-YMp">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -67,37 +67,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1655.072463768116" y="115.17857142857142"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="MCF-3g-fD7">
-            <objects>
-                <viewController id="oRD-oY-nCE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qhb-PJ-zi6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Event name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rbN-YE-7gS">
-                                <rect key="frame" x="20" y="54" width="374" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="96b-yw-MAR"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="ge2-17-bP6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Srb-MY-dY6"/>
-                        <color key="backgroundColor" white="0.1365858843537415" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="rbN-YE-7gS" firstAttribute="trailing" secondItem="qhb-PJ-zi6" secondAttribute="trailingMargin" id="Wtf-2X-EVW"/>
-                            <constraint firstItem="rbN-YE-7gS" firstAttribute="leading" secondItem="qhb-PJ-zi6" secondAttribute="leadingMargin" id="dIG-oG-gbV"/>
-                            <constraint firstItem="rbN-YE-7gS" firstAttribute="top" secondItem="Srb-MY-dY6" secondAttribute="top" constant="10" id="fog-cG-HbW"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ist-dx-EIH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1690" y="802"/>
         </scene>
         <!--Date View Controller-->
         <scene sceneID="hQn-6l-aDR">
